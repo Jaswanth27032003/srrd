@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const products = {
     'N-Nitroso Compounds': [
@@ -18,8 +18,10 @@ const products = {
     ],
 };
 
+type ProductCategory = keyof typeof products;
+
 export default function Products() {
-    const [activeCategory, setActiveCategory] = useState('N-Nitroso Compounds');
+    const [activeCategory, setActiveCategory] = useState<ProductCategory>('N-Nitroso Compounds');
 
     return (
         <section id="products" className="py-20 bg-white">
@@ -36,10 +38,10 @@ export default function Products() {
                         {Object.keys(products).map((category) => (
                             <button
                                 key={category}
-                                onClick={() => setActiveCategory(category)}
+                                onClick={() => setActiveCategory(category as ProductCategory)}
                                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ${activeCategory === category
-                                        ? 'bg-blue-600 text-white'
-                                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                                    ? 'bg-blue-600 text-white'
+                                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                                     }`}
                             >
                                 {category}
