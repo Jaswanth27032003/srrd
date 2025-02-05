@@ -2,7 +2,7 @@ import { ArrowRight, ChevronDown } from 'lucide-react';
 
 export default function Hero() {
     return (
-        <section id="home" className="relative h-screen flex items-center justify-center bg-gradient-to-r from-blue-900 to-blue-700">
+        <section id="home" className="relative h-screen flex items-center justify-center bg-gray-800">
             <div className="absolute inset-0">
                 <video
                     src="../src/assets/2.mp4"
