@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X, FlaskRound as Flask, Phone } from 'lucide-react';
 
 export default function Navbar() {
