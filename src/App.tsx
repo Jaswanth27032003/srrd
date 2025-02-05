@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from './components/Navbar.tsx';
 import Hero from './components/Hero.tsx';
 import About from './components/About.tsx';
