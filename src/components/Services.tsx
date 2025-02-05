@@ -1,4 +1,3 @@
-import React from 'react';
 import { FlaskRound as Flask, Database, Search, Activity } from 'lucide-react';
 
 const services = [
