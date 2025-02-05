@@ -5,7 +5,7 @@ export default function Hero() {
         <section id="home" className="relative h-screen flex items-center justify-center bg-gray-800">
             <div className="absolute inset-0">
                 <video
-                    src="../src/assets/2.mp4"
+                    src="../public/2.mp4"
                     autoPlay
                     loop
                     muted
