@@ -1,6 +1,3 @@
-import { FlaskRound as Flask, Database, Search, Activity } from 'lucide-react';
-
-
 export default function Services() {
     return (
         <section id="services" className="py-20 bg-gray-50">
@@ -11,7 +8,6 @@ export default function Services() {
                         SRRD Laboratories stands out as a trusted and reliable partner for pharmaceutical
                         and biotechnological research. Here’s why we are the ideal choice for your project:
                     </p>
-
                 </div>
                 <div className="flex flex-wrap gap-3.5 mt-6 w-full">
                     {/* Item 1 */}
@@ -45,7 +41,8 @@ export default function Services() {
                         <p className="text-gray-600 mt-2 text-center">
                             At SRRD Laboratories, quality is non-negotiable.
                             From meticulous data analysis to stringent quality assurance, we adhere to the
-                            highest industry standards.                         </p>
+                            highest industry standards.
+                        </p>
                     </div>
                     {/* Item 5 */}
                     <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
@@ -61,14 +58,16 @@ export default function Services() {
                         <span className="font-bold text-black text-center">Accelerating Timelines</span>
                         <p className="text-gray-600 mt-2 text-center">
                             Time is critical in research, and our efficient processes
-                            are designed to accelerate your progress without compromising on quality                        </p>
+                            are designed to accelerate your progress without compromising on quality
+                        </p>
                     </div>
                     {/* Item 7 */}
                     <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
                         <span className="font-bold text-black text-center">Global Reach</span>
                         <p className="text-gray-600 mt-2 text-center">
                             With a proven track record of supporting partners worldwide, we
-                            ensure seamless service delivery across borders                        </p>
+                            ensure seamless service delivery across borders
+                        </p>
                     </div>
                     {/* Item 8 */}
                     <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
@@ -79,43 +78,7 @@ export default function Services() {
                         </p>
                     </div>
                 </div>
-
-
-                {/* <ul>
-                        <li className='mt-8 text-gray-600'>
-                            <span className='font-bold text-black'>Comprehensive Expertise:</span> With a multidisciplinary team of seasoned scientists
-                            and industry professionals, we bring world-class expertise to every stage of
-                            research and development.
-                        </li>
-                        <li className='mt-2 text-gray-600'>
-                            <span className='font-bold text-black'>Tailored Solutions:</span>  We understand that every project is unique. Our adaptable
-                            approach ensures customized solutions designed to meet your specific goals
-                            and requirements.
-
-                        </li>
-                        <li className='mt-2 text-gray-600'>
-                            <span className='font-bold text-black'>State-of-the-Art Infrastructure:</span> Our cutting-edge facilities and advanced
-                            technology empower us to deliver high-precision results and stay ahead in
-                            innovation.
-                        </li>
-                        <li className='mt-2 text-gray-600'>
-                            <span className='font-bold text-black'>Collaborative Partnerships:: </span> At SRRD Laboratories, quality is non-negotiable.
-                            From meticulous data analysis to stringent quality assurance, we adhere to the
-                            highest industry standards.
-                        </li>
-                        <li className='mt-2 text-gray-600'>
-                            <span className='font-bold text-black'>Commitment to Excellence: </span> Your success is our success. We build lasting
-                            partnerships with our clients, based on transparency, trust, and shared
-                            ambitions.
-
-                        </li>
-                        <li className='mt-2 text-gray-600'>
-                            <span className='font-bold text-black'>Commitment to Excellence: </span> At SRRD Laboratories, quality is non-negotiable.
-                            From meticulous data analysis to stringent quality assurance, we adhere to the
-                            highest industry standards.
-                        </li>
-                    </ul> */}
             </div>
-        </section >
+        </section>
     );
 }
