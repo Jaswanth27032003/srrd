@@ -116,8 +116,8 @@ export default function Contact() {
                                     <div className="ml-4">
                                         <h4 className="text-lg font-medium text-gray-900">Address</h4>
                                         <p className="text-gray-600">
-                                            123 Research Park, Innovation District<br />
-                                            Mumbai, Maharashtra 400001<br />
+                                            A 1/5, 1st Floor, SV Cooperative Society, <br />
+                                            Balangar, Hyderabad, Telangana 500037, <br />
                                             India
                                         </p>
                                     </div>
