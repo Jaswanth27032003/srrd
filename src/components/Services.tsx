@@ -28,31 +28,80 @@ export default function Services() {
         <section id="services" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
-                    <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Our Services</h2>
-                    <p className="mt-4 text-xl text-gray-600">
-                        Comprehensive solutions for your pharmaceutical development needs
+                    <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Why Choose SRRD Laboratories</h2>
+                    <p className="mt-4 text-m text-gray-600">
+                        SRRD Laboratories stands out as a trusted and reliable partner for pharmaceutical
+                        and biotechnological research. Here’s why we are the ideal choice for your project:
                     </p>
-                </div>
 
-                <div className="mt-20">
-                    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-                        {services.map((service, index) => (
-                            <div
-                                key={index}
-                                className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300"
-                            >
-                                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                                    <service.icon className="h-6 w-6 text-blue-600" />
-                                </div>
-                                <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                                    {service.title}
-                                </h3>
-                                <p className="text-gray-600">{service.description}</p>
-                            </div>
-                        ))}
+                </div>
+                <div className="flex flex-wrap gap-3.5 mt-6 w-full">
+                    {/* Item 1 */}
+                    <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
+                        <span className="font-bold text-black text-center">Comprehensive Expertise</span>
+                        <p className="text-gray-600 mt-2 text-center">
+                            With a multidisciplinary team of seasoned scientists and industry professionals, we bring world-class expertise to every stage of research and development.
+                        </p>
+                    </div>
+                    {/* Item 2 */}
+                    <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
+                        <span className="font-bold text-black text-center">Tailored Solutions</span>
+                        <p className="text-gray-600 mt-2 text-center">
+                            We understand that every project is unique. Our adaptable
+                            approach ensures customized solutions designed to meet your specific goals
+                            and requirements.
+                        </p>
+                    </div>
+                    {/* Item 3 */}
+                    <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
+                        <span className="font-bold text-black text-center">State-of-the-Art Infrastructure</span>
+                        <p className="text-gray-600 mt-2 text-center">
+                            Our cutting-edge facilities and advanced
+                            technology empower us to deliver high-precision results and stay ahead in
+                            innovation.
+                        </p>
+                    </div>
+                    {/* Item 4 */}
+                    <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
+                        <span className="font-bold text-black text-center">Commitment to Excellence</span>
+                        <p className="text-gray-600 mt-2 text-center">
+                            At SRRD Laboratories, quality is non-negotiable.
+                            From meticulous data analysis to stringent quality assurance, we adhere to the
+                            highest industry standards.                         </p>
+                    </div>
+                    {/* Item 5 */}
+                    <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
+                        <span className="font-bold text-black text-center">Collaborative Partnerships</span>
+                        <p className="text-gray-600 mt-2 text-center">
+                            Your success is our success. We build lasting
+                            partnerships with our clients, based on transparency, trust, and shared
+                            ambitions.
+                        </p>
+                    </div>
+                    {/* Item 6 */}
+                    <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
+                        <span className="font-bold text-black text-center">Accelerating Timelines</span>
+                        <p className="text-gray-600 mt-2 text-center">
+                            Time is critical in research, and our efficient processes
+                            are designed to accelerate your progress without compromising on quality                        </p>
+                    </div>
+                    {/* Item 7 */}
+                    <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
+                        <span className="font-bold text-black text-center">Global Reach</span>
+                        <p className="text-gray-600 mt-2 text-center">
+                            With a proven track record of supporting partners worldwide, we
+                            ensure seamless service delivery across borders                        </p>
+                    </div>
+                    {/* Item 8 */}
+                    <div className="flex flex-col items-center w-[calc(25%-0.75rem)] h-[220px] shadow-xl border border-gray-400 p-4 rounded-xl">
+                        <span className="font-bold text-black text-center">Integrity and Responsibility</span>
+                        <p className="text-gray-600 mt-2 text-center">
+                            Guided by ethical practices and sustainability, we
+                            uphold our commitment to making meaningful contributions to healthcare.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
