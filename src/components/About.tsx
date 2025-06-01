@@ -1,4 +1,4 @@
-import { Target, Heart, Users, Telescope } from 'lucide-react';
+import { Target, Users, Telescope } from 'lucide-react';
 
 export default function About() {
     return (
