@@ -21,9 +21,6 @@ export default function About() {
                             />
                         </div>
                         <div className="flex flex-col">
-                            {/* <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                                Excellence in Research
-                            </h3> */}
                             <p className="text-gray-600 mb-2.5">
                                 <span className='font-bold uppercase text-black'>SRRD Laboratories</span> is a premier trusted Contract Research Organisation (CRO)
                                 dedicated to accelerating scientific discovery and innovation, and bridges the gap
@@ -39,9 +36,7 @@ export default function About() {
                                 do. We committed to delivering meticulous and reliable results. Our state-of-theart facilities, innovative methodologies, and rigorous quality standards set us apart
                                 as a leader in the CRO space.
                             </p>
-
                         </div>
-
                     </div>
                     <div className="space-y-4">
                         <div className="flex items-start mt-8">
@@ -66,20 +61,9 @@ export default function About() {
                                     SRRD Laboratory envisions a future where our scientific expertise and ethical
                                     practices bridge the gap between discovery and delivery, empowering our clients to
                                     transform healthcare outcomes and improve lives worldwide.
-
                                 </p>
                             </div>
                         </div>
-                        {/* <div className="flex items-start">
-                            <Heart className="h-6 w-6 text-blue-600" />
-                            <div className="ml-4">
-                                <h4 className="text-lg font-semibold text-gray-900">Our Values</h4>
-                                <p className="text-gray-600">
-                                    Quality, Innovation, Integrity, and Customer Focus drive
-                                    everything we do.
-                                </p>
-                            </div>
-                        </div> */}
                         <div className="flex items-start">
                             <Users className="size-12 text-blue-600" />
                             <div className="ml-4">
@@ -92,7 +76,6 @@ export default function About() {
                                     thrive on solving complex challenges and bringing client visions to life. Our people
                                     are the heart of our success, unified by integrity, passion, and a commitment to
                                     making a difference.
-
                                 </p>
                             </div>
                         </div>
