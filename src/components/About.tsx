@@ -1,4 +1,4 @@
-import { Target, Heart, Users } from 'lucide-react';
+import { Target, Heart, Users, Telescope } from 'lucide-react';
 
 export default function About() {
     return (
@@ -20,46 +20,80 @@ export default function About() {
                                 className="rounded-lg shadow-lg"
                             />
                         </div>
-                        <div className="flex flex-col justify-center">
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                        <div className="flex flex-col">
+                            {/* <h3 className="text-2xl font-bold text-gray-900 mb-4">
                                 Excellence in Research
-                            </h3>
-                            <p className="text-gray-600 mb-6">
-                                SRRD Laboratories LLP is a leading Contract Research Organization (CRO)
-                                committed to advancing pharmaceutical development through innovative
-                                research and cutting-edge manufacturing solutions.
+                            </h3> */}
+                            <p className="text-gray-600 mb-2.5">
+                                <span className='font-bold uppercase text-black'>SRRD Laboratories</span> is a premier trusted Contract Research Organisation (CRO)
+                                dedicated to accelerating scientific discovery and innovation, and bridges the gap
+                                between scientific innovation and real-world solutions. We partner with
+                                pharmaceutical, biotechnology, and healthcare companies worldwide, providing
+                                comprehensive research and development services that turn ideas into impactful
+                                solutions.
                             </p>
-                            <div className="space-y-4">
-                                <div className="flex items-start">
-                                    <Target className="h-6 w-6 text-blue-600 mt-1" />
-                                    <div className="ml-4">
-                                        <h4 className="text-lg font-semibold text-gray-900">Our Mission</h4>
-                                        <p className="text-gray-600">
-                                            To accelerate drug development through innovative research and
-                                            reliable manufacturing services.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="flex items-start">
-                                    <Heart className="h-6 w-6 text-blue-600 mt-1" />
-                                    <div className="ml-4">
-                                        <h4 className="text-lg font-semibold text-gray-900">Our Values</h4>
-                                        <p className="text-gray-600">
-                                            Quality, Innovation, Integrity, and Customer Focus drive
-                                            everything we do.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="flex items-start">
-                                    <Users className="h-6 w-6 text-blue-600 mt-1" />
-                                    <div className="ml-4">
-                                        <h4 className="text-lg font-semibold text-gray-900">Our Team</h4>
-                                        <p className="text-gray-600">
-                                            Expert scientists and researchers dedicated to delivering
-                                            excellence in every project.
-                                        </p>
-                                    </div>
-                                </div>
+                            <p className="text-gray-600 mb-6">
+                                With a strong foundation in cutting-edge science and technology, SRRD
+                                Laboratories offers tailored solutions across the entire drug development lifecycle.
+                                We ensure the highest quality standards, precision, and efficiency in everything we
+                                do. We committed to delivering meticulous and reliable results. Our state-of-theart facilities, innovative methodologies, and rigorous quality standards set us apart
+                                as a leader in the CRO space.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div className="space-y-4">
+                        <div className="flex items-start mt-8">
+                            <Target className="size-10 text-blue-600" />
+                            <div className="ml-4">
+                                <h4 className="text-lg font-semibold text-gray-900">Our Mission</h4>
+                                <p className="text-gray-600">
+                                    At SRRD Laboratory, our mission is to empower innovation and advance healthcare
+                                    by providing exceptional contract research services. We are committed to
+                                    delivering high-quality, precise, and efficient solutions that accelerate the journey
+                                    from scientific discovery to impactful treatments.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex items-start">
+                            <Telescope className="size-12 text-blue-600" />
+                            <div className="ml-4">
+                                <h4 className="text-lg font-semibold text-gray-900">Our Vision</h4>
+                                <p className="text-gray-600">
+                                    To become the trusted global leader in contract research by driving innovation,
+                                    excellence, and partnership in pharmaceutical and biotechnological advancements.
+                                    SRRD Laboratory envisions a future where our scientific expertise and ethical
+                                    practices bridge the gap between discovery and delivery, empowering our clients to
+                                    transform healthcare outcomes and improve lives worldwide.
+
+                                </p>
+                            </div>
+                        </div>
+                        {/* <div className="flex items-start">
+                            <Heart className="h-6 w-6 text-blue-600" />
+                            <div className="ml-4">
+                                <h4 className="text-lg font-semibold text-gray-900">Our Values</h4>
+                                <p className="text-gray-600">
+                                    Quality, Innovation, Integrity, and Customer Focus drive
+                                    everything we do.
+                                </p>
+                            </div>
+                        </div> */}
+                        <div className="flex items-start">
+                            <Users className="size-12 text-blue-600" />
+                            <div className="ml-4">
+                                <h4 className="text-lg font-semibold text-gray-900">Our Team</h4>
+                                <p className="text-gray-600">
+                                    Our team is a group of dedicated professionals driven by a shared purpose: to
+                                    transform lives through science. With experts in research, development,
+                                    production, and quality assurance, we embrace collaboration and innovation to
+                                    push the boundaries of what’s possible. With a shared dedication to excellence, we
+                                    thrive on solving complex challenges and bringing client visions to life. Our people
+                                    are the heart of our success, unified by integrity, passion, and a commitment to
+                                    making a difference.
+
+                                </p>
                             </div>
                         </div>
                     </div>
