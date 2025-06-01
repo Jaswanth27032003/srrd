@@ -1,27 +1,5 @@
 import { FlaskRound as Flask, Database, Search, Activity } from 'lucide-react';
 
-const services = [
-    {
-        icon: Flask,
-        title: 'Custom Synthesis',
-        description: 'Specialized synthesis of complex organic compounds and intermediates tailored to your specific requirements.',
-    },
-    {
-        icon: Database,
-        title: 'API Manufacturing',
-        description: 'State-of-the-art API manufacturing facilities with strict quality control and regulatory compliance.',
-    },
-    {
-        icon: Search,
-        title: 'Analytical Testing',
-        description: 'Comprehensive analytical services including method development, validation, and stability testing.',
-    },
-    {
-        icon: Activity,
-        title: 'Process Development',
-        description: 'Optimization of synthetic routes and scale-up processes for efficient manufacturing.',
-    },
-];
 
 export default function Services() {
     return (
